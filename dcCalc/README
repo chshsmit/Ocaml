@@ -1,0 +1,33 @@
+//This program implements a dc polish notation calculator in the Ocaml programming language.
+
+Files Included:
+README
+Makefile
+maindc.ml
+bigint.ml
+bigint.mli
+dc.ml
+scanner.mll
+
+
+//To compile the program type 'make all'
+//To run the dc calculator type './ocamldc'
+
+//The makefile also creates an executable of the dc calculator, run the executable
+//by typing 'ocamldc'.
+
+
+Commands for calculator:
+
+p: Prints value on top of stack
+f: Prints all contents of the stack without altering anything
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division
+%: Modulo
+^: Exponent
+c: Clears the stack
+d: Duplicates value on top of stack
+sr: Pop the value off the top of the stack and store it into register r
+lr: Copy the value in register r and push it onto the stack.

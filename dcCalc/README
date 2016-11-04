@@ -29,5 +29,5 @@ f: Prints all contents of the stack without altering anything
 ^: Exponent
 c: Clears the stack
 d: Duplicates value on top of stack
-sr: Pop the value off the top of the stack and store it into register r
-lr: Copy the value in register r and push it onto the stack.
+sr: Pop the value off the top of the stack and store it into register r (r can be any other character).
+lr: Copy the value in register r and push it onto the stack (r can be any other character).
